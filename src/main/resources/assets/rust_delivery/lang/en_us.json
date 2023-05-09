@@ -4,5 +4,6 @@
 
   "block.rust_delivery.trading_machine": "Trading Machine",
 
-  "itemgroup.rust_delivery": "Rust Delivery"
+  "itemgroup.rust_delivery": "Rust Delivery",
+  "screen.trading_machine": "Trading Machine"
 }
