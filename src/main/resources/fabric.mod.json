@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "rust_delivery",
+	"version": "${version}",
+	"name": "Rust Delivery",
+	"description": "Drones, deliveries, and trade machines are all in the Rust Delivery mod",
+	"authors": [
+		"P5ina"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/rust_delivery/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.p5ina.rust_delivery.RustDelivery"
+		],
+		"client": [
+			"com.p5ina.rust_delivery.RustDeliveryClient"
+		],
+		"fabric-datagen": [
+			"com.p5ina.rust_delivery.RustDeliveryDataGenerator"
+		]
+	},
+	"mixins": [
+		"rust_delivery.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.19",
+		"minecraft": "~1.19.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
