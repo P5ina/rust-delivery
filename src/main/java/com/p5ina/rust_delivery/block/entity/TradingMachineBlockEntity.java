@@ -31,7 +31,7 @@ public class TradingMachineBlockEntity extends BlockEntity implements NamedScree
     @Nullable
     @Override
     public ScreenHandler createMenu(int syncId, PlayerInventory playerInventory, PlayerEntity player) {
-        return ;
+        return null;
     }
 
     @Override
@@ -52,5 +52,6 @@ public class TradingMachineBlockEntity extends BlockEntity implements NamedScree
     }
 
     public static void tick(World world, BlockPos blockPos, BlockState blockState, TradingMachineBlockEntity e) {
+
     }
 }
